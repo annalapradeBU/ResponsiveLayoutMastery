@@ -48,6 +48,8 @@ The following 8 M3 components were implemented to satisfy the project rubric:
 | :--- | :--- |
 | ![Phone Screenshot](ResposiveLayoutMasteryPhone.png) | ![Tablet Screenshot](ResposiveLayoutMasteryTablet.png) |
 
+# AI Disclosure and Usage Statements
+
 ### Universal AI Statment 
 I utilized Gemini to ensure that I met each of the project requirements, as well as prompting it for assistance with commenting and ensuring my code followed standard Kotlin conventions. In several instances, AI-generated comments were omitted or manually rewritten to ensure accuracy and flow. Because the AI occasionally "hallucinated" requirements or skipped constraints, I manually verified every line of code against the rubric, using Gemini primarily as a second pair of eyes and a brainstorming partner.
 
