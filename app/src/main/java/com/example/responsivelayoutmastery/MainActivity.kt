@@ -243,6 +243,7 @@ fun ExerciseDetailContent() {
         HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp), thickness = 1.dp)
 
         // REQUIREMENT: M3 component - Card for grouping content
+        // workouts to be logged
         Card(
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
