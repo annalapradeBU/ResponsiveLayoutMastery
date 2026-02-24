@@ -47,3 +47,14 @@ The following 8 M3 components were implemented to satisfy the project rubric:
 | Phone Layout (Single Pane) | Tablet Layout (Dual Pane) |
 | :--- | :--- |
 | ![Phone Screenshot](ResposiveLayoutMasteryPhone.png) | ![Tablet Screenshot](ResposiveLayoutMasteryTablet.png) |
+
+### Universal AI Statment 
+I utilized Gemini to ensure that I met each of the project requirements, as well as prompting it for assistance with commenting and ensuring my code followed standard Kotlin conventions. In several instances, AI-generated comments were omitted or manually rewritten to ensure accuracy and flow. Because the AI occasionally "hallucinated" requirements or skipped constraints, I manually verified every line of code against the rubric, using Gemini primarily as a second pair of eyes and a brainstorming partner.
+
+Additionally, I used it to draft my READMES, though I occassionally needed to omit unneccessary (and frankly, sometimes strange) details.
+
+---
+
+### 📱 Q4: Responsive Workout Layout
+* **Feature Parity:** Gemini assisted in the implementation of the `ModalNavigationDrawer`, helping ensure the phone layout remained as feature-complete as the tablet version by providing a hidden space for the "History" and "Muscle Groups" navigation. Before, I couldn't really figure out how to accomplish that without significantly crowding the screen. 
+* **Breakpoint Architecture:** Gemini helped determine where to delineate the adaptive layouts, suggesting the 600dp breakpoint for switching between `NavigationRail` (Tablet) and `ModalNavigationDrawer` (Phone).
